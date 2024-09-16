@@ -1,3 +1,9 @@
+import { Header } from './components/layout/Header';
+
 export default function Home() {
-  return <main>this is my app</main>;
+  return (
+    <main>
+      <Header />
+    </main>
+  );
 }
