@@ -16,6 +16,10 @@ const config: Config = {
         'text-secondary': 'var(--text-secondary)',
         'box-shadow': 'var(--box-shadow)',
       },
+      backgroundImage: {
+        day: 'url(/bg-day.png)',
+        night: 'url(/bg-night.png)',
+      },
     },
   },
   plugins: [],
