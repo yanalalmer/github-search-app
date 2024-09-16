@@ -14,7 +14,9 @@ const config: Config = {
         'background-btn': 'var(--background-btn)',
         'text-primary': 'var(--text-primary)',
         'text-secondary': 'var(--text-secondary)',
-        'box-shadow': 'var(--box-shadow)',
+      },
+      boxShadow: {
+        custom: 'var(--box-shadow)',
       },
       backgroundImage: {
         day: 'url(/bg-day.png)',

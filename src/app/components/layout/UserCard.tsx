@@ -24,7 +24,7 @@ interface SocialLink {
 
 const Container: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
-    <section className='flex justify-center items-start md:flex-row flex-col bg-background-secondary rounded-[15px] sm:p-12 p-4 w-full shadow-box-shadow md:h-[450px]'>
+    <section className='flex justify-center items-start md:flex-row flex-col bg-background-secondary rounded-[15px] sm:p-12 p-4 w-full shadow-custom md:h-[450px]'>
       {children}
     </section>
   );
