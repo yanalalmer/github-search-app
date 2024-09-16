@@ -18,7 +18,8 @@
       "@/components/*": ["src/app/components/*"],
       "@/hooks/*": ["src/app/hooks/*"],
       "@/api/*": ["src/app/api/*"],
-      "@/state/*": ["src/app/state/*"]
+      "@/state/*": ["src/app/state/*"],
+      "@/assets/*": ["src/assets/*"]
     },
     "plugins": [
       {
