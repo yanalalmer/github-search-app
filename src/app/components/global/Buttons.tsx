@@ -1,6 +1,10 @@
 'use client';
 import React from 'react';
 
+type BtnProps = {
+  text: string;
+};
+
 export const SliderToggleBtn: React.FC = () => {
   return (
     <input
@@ -43,5 +47,13 @@ export const SliderToggleBtn: React.FC = () => {
         checked:before:ease-in-out
         '
     />
+  );
+};
+
+export const PrimaryBtn: React.FC<BtnProps> = ({ text }) => {
+  return (
+    <button className='bg-background-btn text-white rounded-[10px] sm:px-6 px-4 sm:py-4 py-2 font-medium outline-none border-none cursor-pointer'>
+      {text}
+    </button>
   );
 };

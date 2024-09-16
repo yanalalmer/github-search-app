@@ -5,6 +5,7 @@ import search from '@/assets/icons/search.svg';
 import { searchValueState } from '@/state/recoilState';
 import { useSetRecoilState } from 'recoil';
 import { z } from 'zod';
+import { PrimaryBtn } from '@/components/global/Buttons';
 
 const schema = z
   .string()
@@ -50,7 +51,7 @@ export const SearchForm = () => {
       <p className='text-red-500 font-bold mr-8 min-w-20 text-nowrap absolute -bottom-8 left-0 sm:relative sm:bottom-0'>
         {error}
       </p>
-      <button>search</button>
+      <PrimaryBtn text='Search' />
     </form>
   );
 };
