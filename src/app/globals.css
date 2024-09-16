@@ -33,3 +33,22 @@ body {
     padding: 2rem 1rem;
   }
 }
+
+/* animation */
+@keyframes clockwise {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes counterclockwise {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.animate-clockwise {
+  animation: clockwise 2s linear infinite;
+}
+.animate-counterclockwise {
+  animation: counterclockwise 2s linear infinite;
+}

@@ -8,6 +8,7 @@ import buildingIcon from '@/assets/icons/building.svg';
 import { useRecoilValue } from 'recoil';
 import { userState, loadingState, errorState } from '@/state/recoilState';
 import { useGetUser } from '@/hooks/useGetUser';
+import { Loading } from '@/components/global/Loading';
 
 interface Menu {
   id: number;
@@ -38,7 +39,7 @@ export const UserCard: React.FC = () => {
   if (loading)
     return (
       <Container>
-        <h1>Loading...</h1>
+        <Loading />
       </Container>
     );
 
