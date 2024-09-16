@@ -52,7 +52,7 @@ export const SliderToggleBtn: React.FC = () => {
 
 export const PrimaryBtn: React.FC<BtnProps> = ({ text }) => {
   return (
-    <button className='bg-background-btn text-white rounded-[10px] sm:px-6 px-4 sm:py-4 py-2 font-medium outline-none border-none cursor-pointer'>
+    <button className='bg-background-btn text-white rounded-[10px] sm:px-6 px-4 sm:py-4 py-2 font-medium outline-none border-none cursor-pointer hover:bg-text-secondary'>
       {text}
     </button>
   );
